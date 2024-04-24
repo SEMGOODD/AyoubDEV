@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Categories</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="categories.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="addToCart.js" defer></script>
+</head>
+<body>
+    <div class="top-container">
+        <div class ="navbar">
+            <div class = "logo">
+                <img src = "cy_logo.png" width="125px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">Accueil</a> </li>
+                    <li><a href="">PC Gaming</a></li>
+                    <li><a href="">Consoles</a></li>
+                    <li><a href="#Periferals">Periferals</a></li>
+                    <li><a href="">Contact</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+        <div class="about-us">
+            <p id="about-us-paragh"></p>
+        </div>
+        
+        <div class="Menu">
+            <ul>
+                <li>
+                    <button class="nav-bar-buttons">&#8962;</button><a class="nav-bar-a-tags" href="Accueil">Accueil</a>
+                </li>
+                <li>
+                    <button class="nav-bar-buttons">&#128187;</button><a class="nav-bar-a-tags" href="PC_Gaming">PC Gaming</a>
+                </li>
+                <li>
+                    <button class="nav-bar-buttons">&#127918;</button><a class="nav-bar-a-tags" href="Consoles">Consoles</a>
+                </li>   
+                <li>
+                    <button class="nav-bar-buttons">&#128187;</button><a class="nav-bar-a-tags" href="Periferals">Periferals</a>
+                </li>   
+                <li>
+                    <button class="nav-bar-buttons">&#x260E; </button><a class="nav-bar-a-tags" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+   
+
+    <div id="Periferals">
+    <div class= "categories cartpage">
+        <table>
+            <tr>
+                <th id="Produit">Produit</th>
+                <th id="Information">Information</th>
+                <th id="Quantité">Quantité</th>
+                <th id="Prix" >Prix</th>
+            </tr>
+            <tr>    
+                <td><img class="image" src="51vawS1XOXL._AC_SL1500_.jpg"></td>
+                <td>The G-Lab Kult Caesium Souris Gamer sans Fil Rechargeable</td>
+                <td><input type="number" value="0" min="0" max="10">
+                    <button onclick="addToCart('Souris Gamer sans Fil', 19.99)">Add to Cart</button></td>
+                <td>19.99€</td>
+            </tr>
+            <tr>    
+                <td><img class="image" src="61z-f-g2IZL._AC_SL1500_.jpg"></td>
+                <td>The G-Lab Kult Helium Souris Gamer Filaire USB</td>
+                <td><input type="number" value="0" min="0" max="10">
+                    <button onclick="addToCart('Souris Gamer Filaire', 9.99)">Add to Cart</button></td>
+                <td>9.99€</td>
+            </tr>
+            <tr>    
+                <td><img class="image" src="71aVWYHmYVL._AC_SL1500_.jpg"></td>
+                <td>Roccat Vulcan TKL - Clavier de jeu mécanique</td>
+                <td><input type="number" value="0"min="0" max="10">
+                    <button onclick="addToCart('Clavier mécanique', 99.99)">Add to Cart</button></td>
+                <td>99.99€</td>
+            </tr>
+            <tr>    
+                <td><img class="image" src="71eKXByUjnL._AC_SL1500_.jpg"></td>
+                <td>Ensemble clavier et souris ergonomique sans fil </td>
+                <td><input type="number" value="0"min="0" max="10">
+                    <button onclick="addToCart('clavier-souris', 39.99)">Add to Cart</button></td>
+                <td>39.99€</td>
+            </tr>
+            <tr>    
+                <td><img class="image" src="71hdHYzXnIL._AC_SL1500_.jpg"></td>
+                <td>Casque gaming filaire avec son Signature JBL Quantum et Quantum SURROUND</td>
+                <td><input type="number" value="0" min="0" max="10">
+                    <button onclick="addToCart('Casque Gaming', 69.99)">Add to Cart</button></td>
+                <td>69.99€</td>
+            </tr>
+            <tr>    
+                <td><img class="image" src="71pixdzfjjL._AC_SL1500_.jpg"></td>
+                <td>Carte graphique gaming RTX 4060</td>
+                <td><input type="number" value="0"min="0" max="10">
+                    <button onclick="addToCart('RTX 4060', 449.00)">Add to Cart</button></td>
+                <td>449.00€</td>
+            </tr>
+            <tr>    
+                <td><img class="image" src="71Uby-TmcDL._AC_SL1500_.jpg"></td>
+                <td>Carte graphique gaming</td>
+                <td><input type="number" value="0"min="0" max="10">
+                    <button onclick="addToCart('RTX 4070', 699.00)">Add to Cart</button></td>
+                <td>699.00€</td>
+            </tr>
+            <tr>    
+                <td><img class="image" src="712yFYT8t+L._AC_SL1500_.jpg"></td>
+                <td>Carte graphique gaming GIGABYTE</td>
+                <td><input type="number" value="0"min="0" max="10">
+                    <button onclick="addToCart('GIGABYTE', 299.00)">Add to Cart</button></td>
+                <td>299.00€</td>
+            </tr>
+            <tr>    
+                <td><img class="image" src="71PuX0dKytL._AC_SL1500_.jpg"></td>
+                <td>Disque SSD portable SanDisk 2 To</td>
+                <td><input type="number" value="0"min="0" max="10">
+                    <button onclick="addToCart('Disque SSD', 499.00)">Add to Cart</button></td>
+                <td>149.99€</td>
+            </tr> 
+            <tr>    
+                <td><img class="image" src="51bl5ifCHTL._AC_SL1080_.jpg"></td>
+                <td>Disque Dur HDD 7200RPM 3 To</td>
+                <td><input type="number" value="0"min="0" max="10">
+                    <button onclick="addToCart('Disque HDD', 499.00)">Add to Cart</button></td>
+                <td>299.00€</td>
+            </tr>
+            
+            
+        </table>
+    </div>
+</div>
+
+<div class="table-container" id="second-table-container" style="display: none;">
+    <div class="total-price">
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody id="purchased-items"></tbody>
+            <tfoot>4
+                <tr>
+                    <td>Subtotal</td>
+                    <td><span id="subtotal">0.00€</span></td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td><span id="tax">0.00€</span></td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td><span id="total">0.00€</span></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>
+
